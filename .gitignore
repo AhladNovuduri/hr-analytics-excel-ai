@@ -1,0 +1,11 @@
+# Excel temporary and lock files
+~$*.xlsx
+*.tmp
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Python caches if validation scripts are added locally
+__pycache__/
+*.py[cod]

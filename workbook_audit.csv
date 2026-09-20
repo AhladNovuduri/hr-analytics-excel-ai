@@ -1,0 +1,16 @@
+sheet,rows,columns,hidden,freeze,tables,charts
+Executive_Dashboard,5,11,visible,None,[],0
+Raw_Data,1501,31,visible,None,[Table3],0
+Data_Dictionary,28,2,visible,None,[Table4],0
+Project_Guide,8,2,visible,None,[Table5],0
+Analysis_Summary,36,9,visible,None,[],2
+Dashboard,40,17,visible,None,[],3
+KPI_Calculations,8,3,visible,A2,[],0
+Analysis_Plan,9,4,visible,A2,[],0
+Department_Analysis,7,5,visible,A2,[],0
+JobRole_Analysis,19,5,visible,A2,[],0
+Age_Analysis,6,5,visible,A2,[],0
+Tenure_Analysis,5,5,visible,A2,[],0
+Overtime_Analysis,3,5,visible,A2,[],0
+IncomeBand_Analysis,5,5,visible,A2,[],0
+Insights,6,4,visible,None,[],0

@@ -1,0 +1,11 @@
+Check,Result
+Data sheet,Raw_Data
+Record count,1500
+Column count,31
+Duplicate full rows,0
+Duplicate Employee IDs,0
+Total missing cells,6000
+Constant-value columns,None
+Formula cells,6079
+Attrition Yes count,249
+Attrition rate,16.6%
