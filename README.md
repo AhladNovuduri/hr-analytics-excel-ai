@@ -42,9 +42,9 @@ The project documentation reports:
 
 These are figures reported in the project QA documents and should be rechecked against the workbook before being treated as independently reproduced.
 
-### Audit discrepancy requiring resolution
+### Interpreting the missing-cell audit
 
-`WORKBOOK_AUDIT.md` and `data_quality_audit.csv` report 6,000 missing cells, while `FINAL_QA.md` and `DATASET_NOTES.md` state that there are zero missing source-data cells. The distinction between source input cells, derived/formula cells, and blank worksheet/formula outputs must be reconciled. Do not describe the workbook as having zero missing cells until this is resolved.
+The audit files count 6,000 cells without saved values in the four formula-derived `Raw_Data` columns (`AB:AE`). Direct workbook-structure inspection confirms these cells contain formulas but have blank cached results. `FINAL_QA.md` and `DATASET_NOTES.md` report zero missing source-data cells; that is a different measure from counting blank formula caches. The workbook requests a full recalculation when opened, but the desktop Excel recalculate, save, and reopen check is still pending. Spreadsheet viewers that do not recalculate Excel formulas may show the derived columns as blank.
 
 ## AI-Assisted Workflow
 
@@ -67,7 +67,7 @@ See [AI_Workflow.md](AI_Workflow.md).
 - Results are not real-world benchmarks.
 - Observational segment differences do not establish causation.
 - Excel desktop recalculation remains a manual release check.
-- The missing-cell audit discrepancy remains unresolved.
+- Formula result caches in derived columns require a desktop Excel recalculation check before release.
 
 ## License
 
@@ -76,3 +76,4 @@ See [LICENSE](LICENSE) for the applicable terms.
 ## Author
 
 **Ahlad Novuduri** · [GitHub](https://github.com/AhladNovuduri)
+
